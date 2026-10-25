@@ -44,10 +44,7 @@ public class week1 {
         // Total cost uses double because it can contain decimals.
 
 
-        // ==========================================
         // ADVANCED: UNIT CASTING CONVERTER
-        // ==========================================
-
         System.out.println("\n===== ADVANCED: UNIT CASTING CONVERTER =====");
 
         double centimeters = 300.95;
@@ -83,10 +80,7 @@ public class week1 {
         // int widens automatically to double.
         // Casting double to int removes the decimal part.
         
-        // ==========================================
         // EXPERT: OVERFLOW REFERENCE INVESTIGATOR
-        // ==========================================
-
         // PART 1: BYTE OVERFLOW
         System.out.println("\n===== EXPERT: OVERFLOW REFERENCE INVESTIGATOR =====");
 
