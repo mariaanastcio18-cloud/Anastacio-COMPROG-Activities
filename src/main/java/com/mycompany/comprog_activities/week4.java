@@ -26,7 +26,7 @@ public class week4 {
         input.close();
     }
 
-    // 1. Number and Square Printer
+    // BASIC: NUMBER AND SQUARE PRINTER
     public static void numberAndSquarePrinter() {
         System.out.println("\n===== NUMBER AND SQUARE PRINTER =====");
 
@@ -41,7 +41,7 @@ public class week4 {
         }
     }
 
-    // 2. Sum Until Sentinel Value
+    // INTERMEDIATE: SUM UNTIL SENTINEL VALUE
     public static void sumUntilSentinelValue(Scanner input) {
         System.out.println("\n===== SUM UNTIL SENTINEL VALUE =====");
 
@@ -70,7 +70,7 @@ public class week4 {
         System.out.println("Final total: " + total);
     }
 
-    // 3. Pattern Generator With Early Exit
+    //ADVANCED: PATTERN GENERATOR WITH EARLY EXIT
     public static void patternGeneratorWithEarlyExit(Scanner input) {
         System.out.println("\n===== PATTERN GENERATOR WITH EARLY EXIT =====");
 
@@ -92,13 +92,13 @@ public class week4 {
 
             if (row == skipRow) {
                 System.out.println("Row " + row + " - SKIPPED");
-                continue;
+                continue; // CONTINUE: Skips the current iteration and proceeds to the next loop iteration.
             }
 
             for (int col = 1; col <= size; col++) {
 
                 if (col == breakAt) {
-                    break;
+                    break; // BREAK: Terminates the loop immediately when the target score is found.
                 }
 
                 System.out.print("* ");
@@ -110,7 +110,7 @@ public class week4 {
         System.out.println("\nDone!");
     }
 
-    // 4. Warehouse Inventory Scanner
+    //EXPERT: WAREHOUSE INVENTORY SCANNER
     public static void warehouseInventoryScanner(Scanner input) {
         System.out.println("\n===== WAREHOUSE INVENTORY SCANNER =====");
 
