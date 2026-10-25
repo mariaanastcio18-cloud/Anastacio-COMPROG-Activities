@@ -19,7 +19,7 @@ public class week2 {
         precedencePuzzleSolver();
     }
 
-    // 1. Four Function Calculator
+    //BASIC: FOUR FUNCTION CALCULATOR
     public static void fourFunctionCalculator() {
         System.out.println("\n===== FOUR FUNCTION CALCULATOR =====");
 
@@ -44,7 +44,7 @@ public class week2 {
         }
     }
 
-    // 2. Compound Growth Increment Tracker
+    //INTERMEDIATE: COMPOUND GROWTH TRACKER
     public static void compoundGrowthIncrementTracker() {
         System.out.println("\n===== COMPOUND GROWTH TRACKER =====");
 
@@ -73,7 +73,7 @@ public class week2 {
         System.out.println("After ++count: " + count);
     }
 
-    // 3. Grade Threshold Checker
+    //ADVANCED: GRADE THRESHOLD CHECKER
     public static void gradeThresholdChecker() {
         System.out.println("\n===== GRADE THRESHOLD CHECKER =====");
 
@@ -88,7 +88,7 @@ public class week2 {
         System.out.println("Result: " + isPassed);
     }
 
-    // 4. Precedence Puzzle Solver
+    // EXPERT: PRECEDENCE PUZZLE SOLVER
     public static void precedencePuzzleSolver() {
         System.out.println("\n===== PRECEDENCE PUZZLE SOLVER =====");
 
