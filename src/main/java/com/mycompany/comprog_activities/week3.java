@@ -69,9 +69,9 @@ public class week3 {
         double finalPrice =
                 purchaseAmount - (purchaseAmount * discountPercent);
 
-        System.out.println("Purchase Amount: ₱" + purchaseAmount);
+        System.out.println("Purchase Amount: pesos" + purchaseAmount);
         System.out.println("Discount Tier: " + discountTier);
-        System.out.println("Final Price: ₱" + finalPrice);
+        System.out.println("Final Price: pesos" + finalPrice);
         System.out.println("----------------------------------------");
     }
 
