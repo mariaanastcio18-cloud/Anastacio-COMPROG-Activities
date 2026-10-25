@@ -19,7 +19,7 @@ public class week3 {
 
     }
 
-    // 1. Simple Grade Classifier
+    //BASIC: SIMPLE GRADE CLASSIFIER
     public static void simpleGradeClassifier() {
         System.out.println("\n===== SIMPLE GRADE CLASSIFIER =====");
 
@@ -44,7 +44,7 @@ public class week3 {
         }
     }
 
-    // 2. Multi-Tier Discount System
+    // INTERMEDIATE: MULTI TIER DISCOUNT SYSTEM
     public static void multiTierDiscountSystem() {
         System.out.println("\n===== MULTI-TIER DISCOUNT SYSTEM =====");
 
@@ -75,7 +75,7 @@ public class week3 {
         System.out.println("----------------------------------------");
     }
 
-    // 3. Nested Login Validator
+    //ADVANCED: NESTED LOGIN VALIDATOR
     public static void nestedLoginValidator() {
         System.out.println("\n===== NESTED LOGIN VALIDATOR =====");
 
@@ -107,7 +107,7 @@ public class week3 {
         }
     }
 
-    // 4. ATM Transaction Authorizer
+    //EXPERT: ATM TRANSACTION AUTHORIZER
     public static void atmTransactionAuthorizer() {
         System.out.println("\n===== ATM TRANSACTION AUTHORIZER =====");
 
