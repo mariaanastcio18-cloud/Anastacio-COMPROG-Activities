@@ -13,7 +13,7 @@ import java.util.Arrays;
 
 public class week5 {
 
-    // 1. Favorite Things Array
+    //BASIC: FAVORITE THINGS ARRAY
     static void favoriteThingsArray() {
         System.out.println("\n===== FAVORITE THINGS ARRAY =====");
 
@@ -32,8 +32,7 @@ public class week5 {
         System.out.println("Total favorites: " + favorites.length);
     }
 
-    // 2. Class Statistics Calculator
-    static void classStatisticsCalculator() {
+//INTERMEDIATE: CLASS STATISTICS    static void classStatisticsCalculator() {
         System.out.println("\n===== CLASS STATISTICS =====");
 
         int[] scores = {90, 85, 75, 88, 80, 79, 94, 92};
@@ -62,7 +61,7 @@ public class week5 {
         System.out.println("Lowest score: " + lowest);
     }
 
-    // 3. Search and Sort Mini Tool
+    //ADVANCED: SORT MINI TOOL
     static void searchSortMiniTool() {
         System.out.println("\n===== SEARCH AND SORT MINI TOOL =====");
 
@@ -91,9 +90,14 @@ public class week5 {
 
         // Copy the Original Array
         int[] sortedScores = Arrays.copyOf(scores, scores.length);
+        /* Sorting a copy preserves the original array's order,
+        allowing us to compare the original scores with the sorted scores
+        without changing the original data. */
 
         // Sort the Copied Array
         Arrays.sort(sortedScores);
+        /*Only the copied array is sorted, so the original
+        scores array remains unchanged. */
 
         // Display Both Arrays
         System.out.println(
@@ -104,7 +108,7 @@ public class week5 {
         );
     }
 
-    // 4. Class Ranking System
+    //EXPERT: CLASS RANKING SYSTEM
     static class Student {
         String name;
         int[] quizzes;
